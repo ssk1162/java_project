@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+	background: red; /* 배경색 지정 */
+	color: black; /* 글자색 */
+	
+	
+}
+
+hr {
+	width: 600px;
+	height: 200px;
+	background: green;
+	
+	
+}
