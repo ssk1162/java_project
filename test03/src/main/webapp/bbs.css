@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+	background: yellow;
+}
+
+#center {
+	font-size: 20px;	
+}
+
+.box {
+	width:600px;
+	height:200px;
+}
+
+.btn:hover {
+	color: red;
+}
