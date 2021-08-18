@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+ul {
+	text-align: center;
+	padding-top: 20px;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+	padding-right: 70px;
+}
+
+#total {
+	width: 600px;
+	height: 80px;
+	margin: auto;
+	background: pink; /* 검색창 색깔 흰색 추천 */
+	border-radius: 100px;
+	
+	
+}
+
+#top {
+	width: 600px;
+	height: 60px;
+	margin: auto;
+}
+
+#btn {
+	border-radius: 100px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.dropbtn {
+	background-color: #3498DB;
+	color: white;
+	padding: 16px;
+	font-size: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.list_wrap {
+	width: 100%;
+}
+
+.list {
+	width: 33.33%;
+	float: left;
+}
+
+/* 이미지는 딱 이게 보기 좋을거같습니다 */
+.list_img>img {
+	width: 90%;
+	border-radius: 20px;
+	padding-top: 40px;
+	
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+	background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+	display: block;
+}
